@@ -15,6 +15,7 @@ _По соображениям безопасности ключ API не заг
 _В папке app/src/main/res/values/ создайте файл google_maps_api.xml.
 Добавьте в него следующий код:_
 
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="google_maps_key" translatable="false">ВАШ_API_КЛЮЧ</string>
