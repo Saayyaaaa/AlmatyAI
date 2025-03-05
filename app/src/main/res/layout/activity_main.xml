@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <CheckBox android:id="@+id/checkNature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Природа"/>
+
+    <CheckBox android:id="@+id/checkFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Еда"/>
+
+    <CheckBox android:id="@+id/checkCulture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Культура"/>
+
+    <Button android:id="@+id/btnGenerateRoute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сгенерировать маршрут"/>
+</LinearLayout>
