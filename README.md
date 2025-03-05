@@ -21,6 +21,7 @@ _В папке app/src/main/res/values/ создайте файл google_maps_ap
     <string name="google_maps_key" translatable="false">ВАШ_API_КЛЮЧ</string>
 </resources>```
 
+
 _Вместо ВАШ_API_КЛЮЧ вставьте свой API-ключ._
 
 **4. Установите зависимости**
