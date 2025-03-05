@@ -2,25 +2,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:backgroundTint="@color/grey"
+    android:background="@color/grey">
 
-    <CheckBox android:id="@+id/checkNature"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/editSearch"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_marginTop="300dp"
         android:layout_height="wrap_content"
-        android:text="Природа"/>
+        android:hint="Введите место для поиска"
+        android:textSize="10dp"
+        android:inputType="text" />
 
-    <CheckBox android:id="@+id/checkFood"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
         android:layout_height="wrap_content"
-        android:text="Еда"/>
+        android:backgroundTint="@color/blue"
+        android:text="Найти" />
 
-    <CheckBox android:id="@+id/checkCulture"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Культура"/>
-
-    <Button android:id="@+id/btnGenerateRoute"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Сгенерировать маршрут"/>
 </LinearLayout>
